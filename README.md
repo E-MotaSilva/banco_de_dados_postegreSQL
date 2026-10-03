@@ -15,13 +15,13 @@ Projeto de banco de dados desenvolvido em **PostgreSQL**, com o objetivo de prat
 
 Representação das entidades e seus relacionamentos.
 
-![Modelo Conceitual](modelagem/modelo_conceitual.png)
+![Modelo Conceitual](modelagem/modelo_conceitual.jpeg)
 
 ### Modelo Lógico
 
 Representação das tabelas, atributos, chaves primárias e chaves estrangeiras.
 
-![Modelo Lógico](modelagem/modelo_logico.png)
+![Modelo Lógico](modelagem/modelo_logico.jpeg)
 
 ## 🗂️ Estrutura do Banco
 
