@@ -75,4 +75,49 @@ EMPRESTIMO
 LIVROS
 ```
 
-A tabela `EMPRESTIMO` u
+A tabela `EMPRESTIMO` utiliza chaves estrangeiras para relacionar os clientes e os livros.
+
+```sql
+FOREIGN KEY (cpf_cliente)
+REFERENCES CLIENTES(cpf);
+
+FOREIGN KEY (id_livro)
+REFERENCES LIVROS(id);
+```
+
+## 📄 Script SQL
+
+O script responsável pela criação do banco está disponível em:
+
+```text
+sql/biblioteca.sql
+```
+
+O arquivo contém os comandos SQL utilizados para criação das tabelas e seus relacionamentos.
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido para praticar:
+
+* Criação de bancos de dados
+* Criação e alteração de tabelas
+* `PRIMARY KEY`
+* `FOREIGN KEY`
+* `NOT NULL`
+* `SERIAL`
+* Relacionamentos entre tabelas
+* `INSERT`
+* `SELECT`
+* `UPDATE`
+* `DELETE`
+* Consultas SQL
+* Modelagem conceitual e lógica
+
+---
+
+### 👨‍💻 Autor
+
+**Eduardo Silva**
+
+Projeto desenvolvido para fins de estudo e portfólio.
+
